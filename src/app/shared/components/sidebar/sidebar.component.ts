@@ -15,4 +15,8 @@ export class SidebarComponent {
     return [...this.gifsSerevice.tagsHistory]
   }
 
+  searchGif(titulo:string):void{
+    this.gifsSerevice.searchTag(titulo);
+  }
+
 }
