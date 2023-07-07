@@ -14,5 +14,5 @@ export class HomePageComponent {
     return this.gifService.gifsList;
   }
 
-  
+
 }
